@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Portholio.css">
+        <link rel="icon" type="png" href="images.jpg" />
+        <hr>
+        <h4 class="ga">Djimtone_Ngarndo_Moguidbe</h4>
+        <div class="menu">
+   
+            <button onclick="window.location.href = './Entreprise.html';">Retour</button>
+        </div>
+        <hr>
+        <h2>À propos de mon stage</h2>
+        <hr>
+        <h3>J'ai effectué mon stage au sein de l'institut Interhopitallier <abbr title="Institut de Formation Interhospitalier Théodore Simon" class="aa">IFITS</abbr> pour la durée de deux mois et quatre jours consécutifs. Il s'agit d'un centre hospitalier situé à Neuilly-sur-Marne en Île-de-France.
+            Au cours de ce stage, j'ai pu avoir un aperçu de la vie en entreprise et notamment la vie d'un administrateur système et réseaux.
+            Monsieur Dimitri Richol, mon encadreur a su me mettre dans des situations m'aillant permises d'acquérir plusieurs compétences utiles en entreprise et a profité pour me donner de très bons conseils.
+        </h3>
+
+        <img src="Ifits.jpg">
+
+        <li><a href="./IFITS IPSSI.odt" class="aa">Ici se trouve mon rapport de stage que vous pouvez télécharger.</a></li>
+        <li><a href="IFITS IPSSI.pdf" class="aa" target="blank">Ici se trouve mon rapport de stage que vous pouvez consulter.</a></li>
+
+        <h2>J'ai effectué plusieurs tâches pendant ce stage dont:</h2> 
+
+        <li>Création d’une GPO pour que tous les postes en salle ayant les comptes formateur et étudiant aient le même fond avec le logo de l’entreprise : j’ai partagé un dossier dans lequel j’ai mis l’image en question, j’ai donné accès aux comptes étudiant et formateur à ce dossier. J’ai ensuite créé une GPO où j’ai indiqué le chemin du fichier (l’image). Après un gpupdate, tous les postes ont récupéré le fond d’écran ;</li>
+        <li>Étiquetage de toutes les bornes wifi de l’institut et remplissage d’un tableau Excel avec les adresses Mac, numéros de série, adresses IP. Puis rallumage d’une borne wifi (RDC-S13) ;</li>
+        <li>Nettoyage général. (fermeture de sessions, déconnexion des comptes, suppression des fichiers personnel téléchargés sur les postes de l’institut, test de connexion) ;</li>
+        <li>Configuration de deux postes TERRA (création d’utilisateurs, intégration au domaine de l’entreprise, installation de logiciels, mise à jour) ;</li>
+        <li>Rédiger un script pour supprimer tous les fichiers téléchargés ou crées après chaque session ;</li>
+        <li>Sécurité des serveurs et certains ordinateurs (installation d’antivirus, scan antimalware) ;</li>
+        <li>Installation d’un pilote pour une tablette Wacom et la mise à jour des autres pilotes ;</li>
+        <li>Maintenance des ordinateurs (résolution des problèmes matériels ou logiciels) ;</li>
+        <li>Installation d’outils Yealink (caméra et microphone) pour les vidéoconférences ;</li>
+        <li>Installation et configuration du service WSUS ;</li>
+        <li>Mesure de câble.</li>
+ 
+
+
+        <h2>J'ai également résolu des problèmes de matériels et logiciels :</h2> 
+
+        <li>Un employé de l’institut bloquait son clavier et ne savait pas comment il faisait. En réalité, il se servait d’un raccourci clavier permettant de bloquer le clavier, mais il le faisant sans s’en rendre compte ;</li>
+        <li>Un poste ne s’allumait pas, le boîtier d’alimentation n’était pas allumé et impossible de l’allumer. J’ai donc tout débranché, rebrancher et allumer en mettant de l’espace entre les câbles ;</li>
+        <li>Problème de connexion d’un poste, la session avait expiré et il fallait changer le mot de passe pour avoir accès aux dossiers partagés ;</li>
+        <li>Problème au niveau de la ventilation nécessitant de retirer la coque et son ajustement. J’en ai profité pour faire un nettoyage ;</li>
+        <li>Problème de port Ethernet, empêchant l’un des postes l’accès à Internet ;</li>
+        <li>Problème de câble, affichant l’image projetée par le projecteur en bleu ;</li>
+        <li>Problème de câble, créant une mauvaise écoute des sons.</li>
+   
+        <h4>J'ai eu à faire des interventions au niveau du réseau :</h4> 
+
+        <li>Réglage des problèmes de connexion niveau serveur :
+            à mon arrivé un matin, le personnel n’avait pas accès à Internet ni à l’imprimante. Avec l’administrateur système et réseaux, on s’est rendu au sous-sol où se trouvaient les serveurs physiques. On s’est rendu compte que le serveur virtuel avait planté, on l’a redémarré et fait des tests sur les postes, ils avaient à nouveau accès à Internet.
+            J’ai ensuite fait un mail au personnel pour les informer de la résolution du problème ;
+            </li>
+        <li>Exportation des journaux :
+            j’ai prévenu le personnel que je couperai l’accès à Internet pendant 20 minutes, je suis descendu au sous-sol éteindre le serveur virtuel, exporter les journaux de connexion et débogage dans une clé USB. Puis j’ai démarré le serveur virtuel, puis la VM. Après cette opération, j’ai envoyé un mail au personnel pour leur informer de la résolution du problème ;
+            </li>
+        <li>Réinitialisation du mot de passe d’un utilisateur depuis le serveur de messagerie, car cet utilisateur ne s’en rappelait plus. J’ai ensuite transféré le mail reçu de Microsoft contenant le mot de passe temporaire afin que cet utilisateur se connecte et réinitialise son mot de passe une fois connectée ;</li>
+       
+        <li>Réalisation du schéma réseau des salles APS après m'être rendu dans les salles APS, noter les ports de chaque composant informatique dans un fichier Excel. Je suis ensuite allé à la baie et noter les liaisons entre les ports connectés aux composants et les ports des switches ;</li>
+        <li>Réservation d’une adresse IP pour une caméra IP mobile :
+            je suis allé sur le serveur, j’ai ouvert la console DHCP, je suis allé dans l’onglet réservation, avec un clic droit, j’ai coché nouvelle réservation. J’ai indiqué l’adresse IP que je voulais réserver, l’adresse Mac, j’ai donné un nom (caméra mobile salle 209), j’ai cliqué sur DHCP de types pris en charge puis j’ai ajouté ;
+            </li>
+          <li>Une borne wifi était hors ligne. Je l’ai donc retrouvé et l’ai rebranché. Il s’agissait d’une Borne wifi modèle Cnpilot410. Après avoir débranché puis rebranché le câble Ethernet, la borne est passée au bleu (signe qu'elle est bien connectée et synchronise) ;</li>
+            <li>Affectation des adresses statiques IP et dynamiques.</li>
+
+            <h4>Interventions au niveau des problèmes logiciels :</h4> 
+
+            <li>Un personnel recevait des notifications l’avertissant de la vulnérabilité du système, à mon arrivée, j’ai ouvert l’antivirus et me suis rendu compte qu’il n’était pas activé, Windows Defender non plus. Je suis donc allé activer l’antivirus dans les paramètres, j’ai fait une mise à jour de l’antivirus puis j’ai lancé un scan. Tout était nickel ;
+                </li>
+            <li>Installation d’un pilote pour une tablette Wacom.
+                </li>
+  
+            <h2>Câblage :</h2> 
+
+                <li>Branchement des connecteurs et prises ;</li>
+                <li>Branchement des postes ;</li>
+                <li>Mesure de câble ;</li>
+                <li>Test du câble.</li>
+ 
+                
+                <h4>Intervention au niveau du matériel :</h4> 
+
+                <li>•	Installation d’outils Yealink (caméra et microphone) pour les vidéoconférences. La boite de la caméra contient la caméra elle-même
+                    et des accessoires pour l’accrocher. Il suffit de connecter le port USB et le câble d’alimentation qui sont reliés au poste. Ensuite, va falloir aller dans le panneau de configuration gérer ce périphérique. La caméra marche et on a accès à ses images, cependant, il faut installer le microphone qui va avec. Dans la boite de ce microphone, y a un câble Ethernet et le microphone lui-même.
+                    On va donc connecter le port du microphone au port Ethernet de la caméra.
+                   
+                    </li>
+                <li>Installation d’un pilote pour une tablette Wacom.
+                    </li>
+    
+
+
+
+        <h4>Intervention au niveau du matériel :
+ configuration de deux postes TERRA (création d’utilisateurs, intégration au domaine de l’entreprise, installation de logiciels, mise à jour).
+        </h4>
+
+
+            <li>J’ai déballé l’ordinateur de la marque Terra, poser et brancher les câbles nécessaires à son utilisation (câble d’alimentation, câble pour le clavier et câble pour la souris).
+                L’ordinateur allumé, j’ai configuré les paramètres de langue et de région puis après avoir choisis la version professionnelle, j’ai choisi pour nom Administrateur, j’ai mis le mot de passe demander par l’administrateur puis valider. 
+                J’ai ensuite intégré l’ordinateur au domaine ifits.fr en nommant le pc Pcifits1. Pour pouvoir valider, j’ai rentré les identifiant d’un compte du domaine (ifitsadm) puis redémarrer le pc.
+                Une fois allumé et le pc intégré au domaine, j’ai installé Google Chrome, Firefox, adobe Reader, office 365 en me connectant au compte de l’administrateur (camedia-dimitri@ifits.fr), l’antivirus en me connectant au serveur INST-IFITS et enfin, j’ai récupéré TeamViewer Host dans les fichiers partagés.
+                J’ai récupéré l’identifiant et le mot de passe de TeamViewer que j’ai communiqué à l’administrateur afin qu’il puisse prendre la main sur le poste à distance.
+                
+                J’ai ensuite suivi les mêmes étapes pour un second ordinateur, mais je l’ai nommé Pcifits2 dans le domaine.
+                </li>
+        <h2>Aussi, mon encadreur m'a confié la réalisation d'un Projet de stage, installation et configuration du service WSUS et attribution des mises à jour depuis le serveur WSUS. Pour le faire, j'ai dû passer par ces étapes :</h2> 
+
+        <li>Installation de l'Active Directory ;</li>
+        <li>Intégration des clients au domaine ;</li>
+        <li>Installation du rôle WSUS ;</li>
+        <li>Présentation de la console WSUS ;</li>
+        <li>Création d’une GPO ;</li>
+        <li>Installation d’une base SQL pour pouvoir générer des rapports ;</li>
+        <li>Synthèse</li>
+
+        <h2>J'ai rempli un document attestant de mon stage au sein de l'institut. Document que je fais signer par mon encadreur.
+        </h2> 
+        <li><a href="./9- Annexe 9 - Modèle attestation de stage - SIO 2023.docx" class="aa">Ici se trouve mon attestation de stage que vous pouvez télécharger.</a></li>
+        <li><a href="./9- Annexe 9 - Modèle attestation de stage - SIO 2023.pdf" class="aa" target="blank">Ici se trouve mon attestation de stage que vous pouvez Consulter.</a></li>
+
+
+        <h2>Quelques tutos réalisés en entreprise que vous pouvez consulter:
+        </h2> 
+        <li><a href="Touches importantes de la télécommande pour caméra Yealink.pdf" class="aa" target="blank">Touches importantes de la télécommande pour caméra Yealink</a></li>
+        <li><a href="tableau.PNG" class="aa" target="blank">Tableau contenant les informations sur les bornes wifi</a></li>
+        <li><a href="aps2.PNG" class="aa" target="blank">Information sur les salles APS</a></li>
+        <li><a href="Schema réseaux salles APS.PNG" class="aa" target="blank">Schéma réseau des salles APS</a></li>
+        <li><a href="aps3.PNG" class="aa" target="blank">Schéma salles APS</a></li>
+ 
+
+        <h2>Quelques tutos réalisés en entreprise que vous pouvez télécharger:
+        </h2> 
+        <li><a href="./Création d’une GPO pour que tous les postes en salle ayant les comptes formateur et étudiant aient le même fond avec le logo de l’entreprise.docx" class="aa">Création d’une GPO pour que tous les postes en salle ayant les comptes formateur et étudiant aient le même fond avec le logo de l’entreprise.</a></li>
+        <li><a href="./Rédiger un script pour la suppression des fichiers à chaque ouverture de session.docx" class="aa">Rédiger un script pour la suppression des fichiers à chaque ouverture de session.</a></li>
+        <li><a href="./Mise en ligne d’un site internet via l’interface GitHub.odt" class="aa">Mise en ligne d’un site internet via l’interface GitHub.</a></li>
+        <li><a href="./Sécurité des serveurs et certains ordinateurs de l.docx" class="aa">Sécurité des serveurs et certains ordinateurs de l.</a></li>
+        <li><a href="./Installation d'un pilote pour une tablette Wacom.odt" class="aa">Installation d'un pilote pour une tablette Wacom.</a></li>
+        <li><a href="./Mesure de câble avec un microscanner.odt" class="aa">Mesure de câble avec un microscanner.</a></li>
+        <li><a href="./Etiquetage de toutes les bornes Wi.docx" class="aa">Etiquetage de toutes les bornes Wi.</a></li>
+
+        <hr>
+    </head>
+    <body class="couleur">
+
+
+        <div class="haut">
+  
+            <button onclick="window.location.href = '#';" aria-label="Retourner en haut de la page" class="wzb">
+    
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="19" viewBox="0 0 16 20" stroke="none" fill="currentcolor" role="presentation">
+                    <path d="M9.30167 10.99C9.13123 10.8182 8.92846 10.6818 8.70506 10.5887C8.48165 10.4956 8.24202 10.4477 8 10.4477C7.75798 10.4477 7.51835 10.4956 7.29494 10.5887C7.07153 10.6818 6.86876 10.8182 6.69833 10.99L1.19833 16.49C0.843384 16.8352 0.640113 17.3073 0.633237 17.8024C0.626361 18.2975 0.816443 18.7751 1.16167 19.13C1.50689 19.485 1.97898 19.6882 2.47407 19.6951C2.96917 19.702 3.44672 19.5119 3.80167 19.1667L8 14.8767L12.1983 19.1667C12.3688 19.3385 12.5715 19.4749 12.7949 19.568C13.0183 19.6611 13.258 19.709 13.5 19.709C13.742 19.709 13.9816 19.6611 14.2051 19.568C14.4285 19.4749 14.6312 19.3385 14.8017 19.1667C14.9735 18.9962 15.1099 18.7935 15.203 18.5701C15.296 18.3467 15.344 18.107 15.344 17.865C15.344 17.623 15.296 17.3834 15.203 17.16C15.1099 16.9365 14.9735 16.7338 14.8017 16.5633L9.30167 10.99ZM3.80167 9.01001L8 4.79334L12.1983 9.01001C12.3688 9.18185 12.5715 9.31824 12.7949 9.41131C13.0183 9.50439 13.258 9.55231 13.5 9.55231C13.742 9.55231 13.9816 9.50439 14.2051 9.41131C14.4285 9.31824 14.6312 9.18185 14.8017 9.01001C14.9735 8.83958 15.1099 8.63681 15.203 8.4134C15.296 8.18999 15.344 7.95037 15.344 7.70834C15.344 7.46632 15.296 7.2267 15.203 7.00329C15.1099 6.77988 14.9735 6.57711 14.8017 6.40668L9.30167 0.906677C9.13123 0.734841 8.92846 0.598452 8.70506 0.505376C8.48165 0.4123 8.24202 0.36438 8 0.36438C7.75798 0.36438 7.51835 0.4123 7.29494 0.505376C7.07153 0.598452 6.86876 0.734841 6.69833 0.906677L1.19833 6.40668C0.853109 6.7519 0.659164 7.22012 0.659164 7.70834C0.659164 8.19656 0.853109 8.66479 1.19833 9.01001C1.54356 9.35523 2.01178 9.54918 2.5 9.54918C2.98822 9.54918 3.45644 9.35523 3.80167 9.01001Z" fill="currentcolor"></path>
+                  
+                  </svg>
+            </button>
+      
+        </div>
+
+
+
+        <div class="ipssi">
+  
+            <hr>
+            </div>
+        <script src="" async defer></script>
+    </body>
+
+</html>
